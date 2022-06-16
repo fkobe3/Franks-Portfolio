@@ -65,7 +65,7 @@
   .video-wrapper {
     border: 2px none #000;
     width: 100%;
-    height: 400px;
+    height: 800px;
     position: relative;
     text-align: center;
     display: flex;
@@ -140,7 +140,7 @@
   }
   
   footer nav {
-    margin: 40px 5px;
+    margin: 40px 15px;
     flex-wrap: wrap;
   
   }
@@ -167,13 +167,15 @@
   /* END FOOTER STYLES */
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
-    
+    .video-wrapper{
+      height: 400px;
+    }
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
-  
   }
+
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
