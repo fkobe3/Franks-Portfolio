@@ -105,6 +105,11 @@
     border-radius: 25px;
     text-shadow: none;
   }
+  .wufr:hover{
+    background: url(../images/gp.png);
+    background-size:contain;
+    background-position: center;
+  }
   .runbuddy:hover{
     background: url(../images/hero-bg.jpg);
     background-size:contain;
