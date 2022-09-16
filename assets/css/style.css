@@ -120,6 +120,11 @@
     background-size:cover;
     background-position: center;
   }
+  .movies:hover{
+    background: url(../images/theater.jpg);
+    background-size:cover;
+    background-position: center;
+  }
   .coding-quiz:hover{
     background: url(../images/TIMER.jpg);
     background-size:cover;
